@@ -143,8 +143,7 @@ clock = $clock.FlipClock(diff, {
             }
         }
     }
-});
-
+,
 		callbacks: {
 			interval: function() {
 				var time = this.factory.getTime().time;
@@ -200,5 +199,3 @@ function bounce()
 	
 	timeout = setTimeout(bounce, interval);
 }
-
-
